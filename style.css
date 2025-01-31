@@ -1,7 +1,39 @@
 
 
+.phone{
+    visibility: collapse;
+}
+
+.clickable:hover{
+   transform: rotateZ(180deg);
+}
+
 .words{
     color: white;
+}
+
+#blogo{
+height: 250px;
+}
+
+.topimgs{
+
+    height: 250px;
+}
+
+.gifs{
+    height: 300px;
+  margin: 5%;
+    
+}
+
+
+#home{
+background-image: url(Screenshot\ 2025-01-31\ 035500.png);   
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 #eyes1{
@@ -10,6 +42,7 @@
 }
 
 #ptop{
+    
     margin-right: auto;
     margin-left: auto;
     width: fit-content;
@@ -22,4 +55,26 @@
     margin-left: auto;
     width: fit-content;
     padding: 10%;
+}
+
+@media only screen and (max-width:430px ) {
+   
+   .gifs{ 
+    height: 115px;
+    
+    }
+   
+    #blogo{
+        height: 10px;
+    }
+    
+    .topimgs{
+        height: 65px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        
+    }
+        
+
 }
