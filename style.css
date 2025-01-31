@@ -1,0 +1,25 @@
+
+
+.words{
+    color: white;
+}
+
+#eyes1{
+    
+    transform: rotateY(180deg);    
+}
+
+#ptop{
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    background-color: white;
+}
+
+#box1{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    padding: 10%;
+}
