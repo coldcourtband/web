@@ -1,5 +1,40 @@
 
 
+#headbox{
+
+
+width: fit-content;
+margin-right: auto;
+margin-left: auto;
+padding-left: 3%;
+padding-right: 0%;
+}
+
+#headz{
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+}
+
+
+#htopbox{
+
+
+    background-color: black;
+    padding: 10%;
+    position: fixed;
+    }
+    
+    #htop{
+       
+        margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    background-color: rgb(0, 0, 0);
+    }
+
 .phone{
     visibility: collapse;
 }
@@ -19,6 +54,9 @@ height: 250px;
 .topimgs{
 
     height: 250px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 .gifs{
@@ -28,18 +66,51 @@ height: 250px;
 }
 
 
+.homc{
+   margin: 0%;
+    
+
+
+}
+
+
+
+.homc :hover{
+    transform: rotateZ(180deg);
+}
+
+
+.homc :active{
+    transform: rotateZ(180deg);
+}
+
+#himgs{
+
+        height: 65px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    
+
+}
+
+
 #home{
-background-image: url(Screenshot\ 2025-01-31\ 035500.png);   
-background-size: cover;
+background-image: url(liveg.gif);   
+
 background-position: center; 
-background-repeat: no-repeat;
+
 background-attachment: fixed;
+padding: 50px;
 }
 
 #eyes1{
     
     transform: rotateY(180deg);    
 }
+
+
+
 
 #ptop{
     
@@ -49,13 +120,145 @@ background-attachment: fixed;
     background-color: white;
 }
 
+#homm{
+background-color: black;
+background-position: center;
+background-attachment: fixed;
+
+
+}
+
+#hometext{
+
+    color: blueviolet;
+font-size: xx-large;
+text-align: center;
+font-weight: bold;
+}
+
+#homeptext{
+
+margin-bottom: 20px;
+    font-size: larger;
+color: blueviolet;
+    
+font-weight: bold;
+padding: 10%;
+}
+
+
+
+
+#mvbox{
+
+margin-right: auto;
+margin-left: auto;
+background-color: black;
+width: fit-content;
+transform: translateY(200px);
+
+}
+
+
+
+#homebox{
+
+    background-image: url(what.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+
+    
+}
+
 #box1{
-    background-color: white;
+    background-image: url(dvd.gif);
     margin-right: auto;
     margin-left: auto;
     width: fit-content;
     padding: 10%;
+    border-color: white;
+    border-width: 10px;
 }
+
+#flag :hover{
+
+    transform: rotateZ(180deg);
+}
+
+#texts{
+
+    visibility: collapse;
+    color: white;
+    font-size: xx-large;
+
+
+
+}
+
+#header{
+
+    background-color: transparent;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+#flag :active{
+
+    transform: rotateZ(180deg);
+}
+
+
+
+#flag{
+padding-top: 0%;
+margin-top: 0%;
+float: left;
+position: absolute;
+transform: translate(-100px, -100px);
+
+
+}
+
+#mail{  
+
+margin-left: auto;
+margin-right: auto;
+transform: translate(0px, 100px);
+
+}
+
+#nets{
+
+color: white;
+
+}
+
+#news{
+width: 300px;
+height: 300px;
+background-image: url(cute.gif);
+background-position: center;
+background-size: cover  ;
+background-repeat: no-repeat;
+}
+
+
+
+#words{
+
+    text-align: center;
+
+}
+
 
 @media only screen and (max-width:430px ) {
    
@@ -73,8 +276,50 @@ background-attachment: fixed;
         align-items: center;
         align-content: center;
         align-self: center;
+       margin-top: 100px;
         
     }
         
+    #home{
+        background-size: 105px;
+
+    }
+
+    
+    
+   #mvbox{
+
+    background-color: transparent;
+
+   }
+   
+    #mv{
+
+        width: 280px;
+        height: 157.5px;
+        transform: translate(0px, 65px);
+
+    }
+
+    .headz{
+
+        transform: translate(63px, 0px);
+
+    }
+
+    #texts{
+
+        visibility: visible;
+
+
+    }
+
+
 
 }
+
+
+
+
+
+
